@@ -31,6 +31,11 @@ html {
     background: var(--primary-darker);
 }
 
+h1,
+p {
+    color: #fff;
+}
+
 .main {
     left: 11rem;
     width: 90%;

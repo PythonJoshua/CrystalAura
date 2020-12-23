@@ -32,10 +32,13 @@ html {
 }
 
 h1,
-p {
+p,
+a {
     color: #fff;
     text-align: center;
 }
+
+
 
 .main {
     left: 11rem;

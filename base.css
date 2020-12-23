@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf');
+}
+
+:root {
+    --primary: #1e1e1e;
+    --secondary: #0011ff;
+    --primary-darker: #131313;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+    background: var(--primary-darker);
+}
+
+.main {
+    left: 11rem;
+    width: 90%;
+    right: 0;
+    height: 100%;
+    position: absolute;
+}
+
+.codeBox {
+    height: 100%;
+    width: 100%;
+}
+
+.t-s {
+    color: var(--secondary);
+}
+
+.t-p {
+    color: var(--primary);
+}
+
+.i-s {
+    fill: var(--secondary);
+}
+
+.i-p {
+    fill: var(--primary);
+}
+
+.b-s {
+    background-color: var(--secondary);
+}
+
+.b-p {
+    background-color: var(--primary);
+}
+
+.b-p-d {
+    background-color: var(--primary-darker);
+}

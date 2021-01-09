@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta property="og:title" content="CrystalAura Website Invite" />
+    <meta property="og:image" content="https://crystalaura.ga/frog.png"/>
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="You got invited to CrystalAura website! Join today!" />
+    <meta property="og:description" content="CrystalAura, you got invited! Have a look around." />
+    <meta http-equiv="refresh" content="0; URL=' https://discord.com/api/oauth2/authorize?client_id=774592939506008094&permissions=0&scope=bot'" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Redirecting...</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+  </head>  
+  <body>
+    <h1 style="text-align: center">Redirecting to CrystalAura!</h1>
+</html>

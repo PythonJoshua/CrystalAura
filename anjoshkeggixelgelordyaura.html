@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>图片预览与查看原图</title>
+    <title>Private Uploader</title>
     <style type="text/css">
         body{ background: #f8f8f8;}
         #drag{ width: 400px;height: 100px;border: 1px dotted #333; text-align: center; line-height: 100px; color: #aaa; display: inline-block;}
@@ -19,7 +19,7 @@
 <body>
 <div class='upload_box'>
     <input type="file" id='upimg' multiple>
-    <span id="drag">拖拽区域</span>
+    <span id="drag">Upload</span>
 </div>
 <div class='show' id="show"></div>
 </body>
@@ -99,7 +99,7 @@
                         var y = ((i+j)%4)*250;
                         var reader = new FileReader();
                         if(!/image\/\w+/.test(files[i].type)){
-                            show.innerHTML = "请确保文件为图像类型";
+                            show.innerHTML = "Uploader";
                             return false;
                         }
                         reader.onload = function(e) {

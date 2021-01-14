@@ -1,6 +1,3 @@
-<html>
-<head>
-<label for="myfile">Select a file:</label>
-<input type="file" id="myfile" name="myfile">
-  </head>
-</html>
+<h1>File Upload</h>
+<input type="file" (change)="onFileSelected($event)">
+<button type="button" (click)="onUpload()">Upload!</button>
